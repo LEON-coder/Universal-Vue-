@@ -209,7 +209,7 @@
 
 
 			<div class="GridLayout__Block GridLayout__Block-cat">
-				<img src="../../src/assets/img/GridLayoutsBlock/cat_back.png" alt="">
+				<img class="cat_img" src="../../src/assets/img/GridLayoutsBlock/cat_back.png" alt="">
 				<p class="Block-cat__headline">
 					200+ Doomed Cats Saved From Euthanization
 				</p>
@@ -306,16 +306,19 @@
 	justify-items: center;
 }
 
-.GridLayout__Block-posts_wrap[data-v-16773c81][data-v-16773c81] {
+.GridLayout__Block-posts_wrap[data-v-16773c81][data-v-16773c81][data-v-16773c81][data-v-16773c81] {
 	width: 1140px;
 	display: grid;
 	grid-template: repeat(3, 1fr)/repeat(4, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-areas: none;
+	grid-template-rows: 370px 170px 170px;
+	grid-template-columns: 263px 263px 263px 263px;
 	gap: 29px;
 	margin-top: 30px;
-
+	grid-template-areas:
+		"cars cars popular column"
+		"cats coffee-1 coffee-2 column"
+		"cats coffee-3 coffee-4 column";
+	margin-bottom: 60px;
 }
 
 .Block-posts {
@@ -336,6 +339,7 @@
 	grid-row-end: 1;
 	grid-column-end: 2;
 	background: url(/src/assets/img/GridLayoutsBlock/Grid_back-1.png);
+	grid-area: cars;
 }
 
 .GridLayout__Block-car-wrap[data-v-16773c81][data-v-16773c81] {
@@ -350,6 +354,7 @@
 	height: 370px;
 	background: url(/src/assets/img/GridLayoutsBlock/hand_back.png);
 	box-sizing: border-box;
+	grid-area: popular;
 }
 
 .comment[data-v-16773c81] {
@@ -362,6 +367,7 @@
 	background: #fff;
 	grid-area: 2/1;
 	display: grid;
+	grid-area: cats;
 }
 
 .GridLayout__Block-tall[data-v-16773c81][data-v-16773c81] {
@@ -371,6 +377,8 @@
 	grid-column-start: 3;
 	grid-row-start: 1;
 	grid-column-end: 3;
+	grid-area: column;
+
 }
 
 .small-block {
@@ -383,25 +391,22 @@
 
 .small-1[data-v-16773c81] {
 	display: grid;
-	grid-row-start: 2;
-	grid-column-start: 2;
-	grid-row-end: 2;
-	grid-column-end: 2;
+	grid-area: coffee-1;
 }
 
 .small-2[data-v-16773c81][data-v-16773c81] {
 	display: grid;
-	grid-area: 2/3;
+	grid-area: coffee-2;
 }
 
 .small-3[data-v-16773c81] {
 	display: grid;
-	grid-area: 3/2;
+	grid-area: coffee-3;
 }
 
 .small-4[data-v-16773c81][data-v-16773c81] {
 	display: grid;
-	grid-area: 3/3;
+	grid-area: coffee-4;
 }
 
 .car-name {
@@ -733,6 +738,11 @@
 
 .month {
 	margin-top: 10px;
+}
+
+.cat_img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 </style>
 
