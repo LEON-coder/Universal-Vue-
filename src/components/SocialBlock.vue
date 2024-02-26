@@ -46,7 +46,8 @@
 
 
 			<div class="social-icons-block">
-				<svg class="fb" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg class="fb social-icon" width="40" height="40" viewBox="0 0 40 40" fill="none"
+					xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd" clip-rule="evenodd"
 						d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"
 						fill="#4267B2" />
@@ -55,7 +56,8 @@
 						fill="white" />
 				</svg>
 
-				<svg class="tw" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg class="tw social-icon" width="40" height="40" viewBox="0 0 40 40" fill="none"
+					xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd" clip-rule="evenodd"
 						d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"
 						fill="#1DA1F2" />
@@ -64,7 +66,7 @@
 						fill="white" />
 				</svg>
 
-				<svg class="youtube" width="40" height="40" viewBox="0 0 40 40" fill="none"
+				<svg class="youtube social-icon" width="40" height="40" viewBox="0 0 40 40" fill="none"
 					xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd" clip-rule="evenodd"
 						d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"
@@ -74,7 +76,7 @@
 						fill="white" />
 				</svg>
 
-				<svg class="insta" width="40" height="40" viewBox="0 0 40 40" fill="none"
+				<svg class="insta social-icon" width="40" height="40" viewBox="0 0 40 40" fill="none"
 					xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd" clip-rule="evenodd"
 						d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"
@@ -91,18 +93,58 @@
 </template>
 
 <style scoped>
-.SocialBlock {
+.SocialBlock[data-v-0b2bbb06][data-v-0b2bbb06] {
 	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 
-.SocialBlock-wrap {
+.SocialBlock-wrap[data-v-0b2bbb06][data-v-0b2bbb06][data-v-0b2bbb06] {
 	display: flex;
-
+	width: 1140px;
+	align-items: center;
+	border-top: 1px solid #d9dadb;
+	padding-top: 30px;
+	border-bottom: 1px solid #d9dadb;
+	padding-bottom: 30px;
+	margin-top: 64px;
 }
 
-.contacts-block-list {
+.social-label[data-v-0b2bbb06] {
+	margin-left: 0;
+	cursor: pointer;
+}
+
+.contacts-block-list[data-v-0b2bbb06] {
 	display: flex;
 	list-style: none;
+	margin-left: 30px;
+}
+
+.contacts-block-link[data-v-0b2bbb06] {
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 143%;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #262d33;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+.social-icons-block[data-v-0b2bbb06] {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.social-icon[data-v-0b2bbb06] {
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.social-icon:nth-child(4) {
+	margin-right: 0;
 }
 </style>
 

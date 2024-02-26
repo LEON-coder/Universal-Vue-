@@ -13,15 +13,15 @@ import Copyright from './components/Copyright.vue'
 </script>
 
 <template>
-  <Header></Header>
-  <MenuNavigation></MenuNavigation>
-  <GridLayoutsBlock></GridLayoutsBlock>
-  <BigBloomBlock></BigBloomBlock>
-  <RecommendedBlock></RecommendedBlock>
-  <BlockSlider></BlockSlider>
-  <Block_discount></Block_discount>
-  <SocialBlock></SocialBlock>
-  <Copyright></Copyright>
+	<Header></Header>
+	<MenuNavigation></MenuNavigation>
+	<GridLayoutsBlock></GridLayoutsBlock>
+	<BigBloomBlock></BigBloomBlock>
+	<RecommendedBlock></RecommendedBlock>
+	<BlockSlider></BlockSlider>
+	<Block_discount></Block_discount>
+	<SocialBlock></SocialBlock>
+	<Copyright></Copyright>
 </template>
 
 <style scoped></style>

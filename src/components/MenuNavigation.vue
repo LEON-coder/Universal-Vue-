@@ -247,12 +247,12 @@ body {
 	font-family: "Lato", sans-serif;
 }
 
-.menuNavigation[data-v-33da2aeb][data-v-33da2aeb][data-v-33da2aeb] {
+.menuNavigation {
 	width: 100%;
 	display: flex;
-
 	flex-direction: column;
 	align-items: center;
+	background: #E5E5E5;
 }
 
 .menuNavigation__content[data-v-33da2aeb] {

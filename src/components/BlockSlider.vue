@@ -138,9 +138,9 @@
 .BlockSlider__blocks[data-v-be3b3718] {
 	display: flex;
 	background: #262D33;
-	justify-content: space-between;
+	justify-content: center;
 	padding-top: 60px;
-	padding-left: 113px;
+	padding-left: 0px;
 }
 
 .BlockSlider__blocks_wrap[data-v-be3b3718] {

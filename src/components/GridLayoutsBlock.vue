@@ -161,7 +161,7 @@
 							</p>
 
 							<div class="Block-tall__column-customer-block">
-								<img class="column-customer" src="../../dist/assets/Alexandra.png" alt="">
+								<img class="column-customer" src="../assets/img/GridLayoutsBlock/Alexandra.png" alt="">
 
 								<div class="column-customer-name-block">
 									<span class="column-customer-name">
@@ -189,7 +189,7 @@
 
 							<div class="Block-tall__column-customer-block">
 
-								<img class="column-customer" src="../../dist/assets/Olivia.png" alt="">
+								<img class="column-customer" src="../assets/img/GridLayoutsBlock/Olivia.png" alt="">
 
 								<div class="column-customer-name-block">
 									<span class="column-customer-name">
@@ -203,6 +203,9 @@
 							</div>
 						</div>
 					</div>
+					<a href="#" class="read_more">
+						Read more
+					</a>
 				</div>
 			</div>
 
@@ -743,6 +746,17 @@
 .cat_img {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+}
+
+.read_more[data-v-16773c81] {
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 143%;
+	text-align: center;
+	color: #fff;
+	margin-top: 11px;
+	text-decoration: none;
 }
 </style>
 

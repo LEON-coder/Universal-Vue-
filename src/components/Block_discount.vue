@@ -182,9 +182,10 @@
 	margin-top: 25px;
 }
 
-.Block_discount__list-block[data-v-7edae146] {
+.Block_discount__list-block[data-v-7edae146][data-v-7edae146] {
 	display: flex;
 	margin-top: 70px;
+	width: 1140px;
 }
 
 .Block_discount__list[data-v-7edae146] {

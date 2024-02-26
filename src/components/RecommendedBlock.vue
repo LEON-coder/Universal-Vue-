@@ -15,9 +15,9 @@
 									Flights
 								</h3>
 
-								<p class="block-posts-section__headline">
+								<a href="../../article.html" class="block-posts-section__headline">
 									Passengers Suffer as Crowded Field Puts Pressure on Europe’s Airlines
-								</p>
+								</a>
 
 								<p class="block-posts-section__describe">
 									Weaker carriers have fallen by the wayside amid fierce competition, while others have
@@ -78,9 +78,9 @@
 									Food
 								</h3>
 
-								<p class="block-posts-section__headline">
+								<a href="#" class="block-posts-section__headline">
 									Three Courses, 20 Euros: The Affordable Dining Renaissance in Paris
-								</p>
+								</a>
 
 								<p class="block-posts-section__describe">
 									The Los Angeles area, for all of its culinary diversity, has not historically been
@@ -142,9 +142,9 @@
 									Science
 								</h3>
 
-								<p class="block-posts-section__headline">
+								<a href="#" class="block-posts-section__headline">
 									Watch the High-Flying Physics of a Plant’s Exploding Fruits
-								</p>
+								</a>
 
 								<p class="block-posts-section__describe">
 									Three undergradute physics majors and their professor worked out how the hairyflower
@@ -205,9 +205,9 @@
 									Health
 								</h3>
 
-								<p class="block-posts-section__headline">
+								<a href="#" class="block-posts-section__headline">
 									How the Shape of Your Ears Affects What You Hear
-								</p>
+								</a>
 
 								<p class="block-posts-section__describe">
 									We’re able to locate sound because our brains grasp the shape of our ears. When that
@@ -269,14 +269,14 @@
 									Science
 								</h3>
 
-								<p class="block-posts-section__headline">
+								<a href="#" class="block-posts-section__headline">
 									Forests Protect the Climate. A Future With More Storms Would Mean Trouble.
-								</p>
+								</a>
 
-								<p class="block-posts-section__describe">
+								<a href="#" class="block-posts-section__describe">
 									With an increase in extreme weather expected in the years to come, forests could be
 									changed permanently as the world continues to warm
-								</p>
+								</a>
 
 								<div class="block-posts-section__block-comments">
 									<span class="block-posts-section__data">
@@ -332,9 +332,9 @@
 									Art & Design
 								</h3>
 
-								<p class="block-posts-section__headline">
+								<a href="#" class="block-posts-section__headline">
 									New Contemporary Institute Reverberates in Richmond’s Historic Landscape
-								</p>
+								</a>
 
 								<p class="block-posts-section__describe">
 									The center, which will open in April, takes a bold look at race and other social issues
@@ -505,11 +505,12 @@
 </template>
 
 <style scoped>
-.RecommendedBlock[data-v-ead1b6ff] {
+.RecommendedBlock[data-v-ead1b6ff][data-v-ead1b6ff] {
 	width: 100%;
 	display: flex;
 	background: #E5E5E5;
 	justify-content: center;
+	padding-bottom: 60px;
 }
 
 .RecommendedBlock__wrap[data-v-ead1b6ff] {
@@ -579,7 +580,7 @@
 	color: #4592ff;
 }
 
-.block-posts-section__headline[data-v-ead1b6ff][data-v-ead1b6ff] {
+.block-posts-section__headline {
 	font-family: "Roboto Slab", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
@@ -589,6 +590,8 @@
 	margin-top: 15px;
 	margin-bottom: 10px;
 	width: 400px;
+	text-decoration: none;
+	display: flex;
 }
 
 .block-posts-section__describe {
